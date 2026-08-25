@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/uaslp/2026-b/bases-de-datos/59-parciales/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/uaslp/2026-b/bases-de-datos/59-parciales/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 # FECHAS

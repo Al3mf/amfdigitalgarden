@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"permalink":"/uaslp/2026-b/bases-de-datos/59-bases-de-datos/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/uaslp/2026-b/bases-de-datos/59-bases-de-datos/","dgPassFrontmatter":true,"dg-note-properties":{}}
 ---
 
 [[UASLP/2026B/Bases de Datos/59 Evaluacion\|59 Evaluacion]]
