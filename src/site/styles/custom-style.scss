@@ -19,10 +19,13 @@ body {
     --dg-content-font-size: 16px;
     --dg-content-line-height: 1.65;
     --dg-content-padding-top: 48px;
-    --dg-filetree-width: 280px;
-    --dg-filetree-min-width: 280px;
+    --dg-filetree-width: 400px;
+    --dg-filetree-min-width: 400px;
     --dg-filetree-gap: 40px;
+    --dg-filetree-padding: 12px 14px;
     --dg-filetree-title-size: 1.35rem;
+    --dg-inner-folder-margin: 10px;
+    --dg-filelist-margin: 6px;
     --dg-sidebar-gap: 40px;
     --dg-sidebar-max-width: 280px;
     --dg-sidebar-top: 48px;
@@ -90,7 +93,22 @@ a:hover,
 }
 
 .filetree-sidebar {
+    box-sizing: border-box;
     overflow-x: hidden;
+}
+
+.filetree-sidebar .search-button {
+    width: 100%;
+    max-width: 100%;
+    min-width: 0;
+    overflow: hidden;
+}
+
+.filetree-sidebar .search-button .search-text {
+    min-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .filetree-sidebar .folder,
@@ -99,18 +117,20 @@ a:hover,
 .filetree-sidebar .notelink {
     min-width: 0;
     max-width: 100%;
+    box-sizing: border-box;
 }
 
 .filetree-sidebar .notelink {
-    box-sizing: border-box;
     margin-left: 0;
+    align-items: flex-start;
 }
 
 .filetree-sidebar .filename {
     display: block;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
+    white-space: normal;
+    overflow: visible;
+    overflow-wrap: anywhere;
+    line-height: 1.35;
 }
 
 @media (min-width: 1401px) {
