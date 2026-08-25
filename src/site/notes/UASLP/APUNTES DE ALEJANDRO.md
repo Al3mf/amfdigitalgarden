@@ -1,5 +1,5 @@
 ---
-{"dg-publish":true,"dg-home":true,"permalink":"/uaslp/apuntes-de-alejandro/","tags":["gardenEntry"],"dgPassFrontmatter":true,"dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/uaslp/apuntes-de-alejandro/","tags":["gardenEntry"],"dg-note-properties":{}}
 ---
 
 APUNTES DE UASLP
