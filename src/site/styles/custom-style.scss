@@ -14,6 +14,23 @@ body {
     --h6-font: var(--font-default);
     --inline-title-font: var(--font-default);
     font-family: var(--font-default);
+
+    --dg-content-max-width: 760px;
+    --dg-content-font-size: 16px;
+    --dg-content-line-height: 1.65;
+    --dg-content-padding-top: 48px;
+    --dg-filetree-width: 280px;
+    --dg-filetree-min-width: 280px;
+    --dg-filetree-gap: 32px;
+    --dg-filetree-title-size: 1.35rem;
+    --dg-sidebar-gap: 32px;
+    --dg-sidebar-max-width: 280px;
+    --dg-sidebar-top: 48px;
+
+    --link-color: #8eb8c4;
+    --link-color-hover: #b7d7df;
+    --text-accent: #8eb8c4;
+    --text-accent-hover: #b7d7df;
 }
 
 html,
@@ -29,4 +46,65 @@ h6,
 .sidebar,
 .navbar {
     font-family: var(--font-default);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: var(--text-normal);
+    font-weight: 600;
+}
+
+.content h1 {
+    font-size: 1.85rem;
+    line-height: 1.25;
+    margin-bottom: 0.6em;
+}
+
+.content h2 {
+    font-size: 1.35rem;
+}
+
+.content h3 {
+    font-size: 1.15rem;
+}
+
+a,
+a:visited,
+.internal-link,
+.filename,
+.backlink-card a,
+.toc a {
+    color: var(--link-color);
+}
+
+a:hover,
+.internal-link:hover,
+.filename:hover,
+.backlink-card a:hover,
+.toc a:hover {
+    color: var(--link-color-hover);
+}
+
+@media (min-width: 1401px) {
+    .filetree-wrapper {
+        width: var(--dg-filetree-width) !important;
+        justify-content: flex-start;
+    }
+
+    .content {
+        margin-left: calc(
+            var(--dg-filetree-width) + var(--dg-filetree-gap)
+        ) !important;
+    }
+
+    .sidebar {
+        left: calc(
+            var(--dg-filetree-width) + var(--dg-filetree-gap) +
+                var(--dg-content-max-width) + var(--dg-sidebar-gap)
+        ) !important;
+    }
 }
