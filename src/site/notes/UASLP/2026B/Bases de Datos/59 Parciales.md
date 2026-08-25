@@ -1,6 +1,7 @@
 ---
-{"dg-publish":true,"permalink":"/uaslp/2026-b/bases-de-datos/59-parciales/","dg-note-properties":{}}
+{"dg-publish":true,"permalink":"/uaslp/2026-b/bases-de-datos/59-parciales/","dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowGraphDepthControl":true,"dgShowInlineTitle":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgLinkPreview":true,"dgShowTags":true,"dg-note-properties":{}}
 ---
+
 
 # FECHAS
 PRIMER EXAMEN - 11/Sep/2026 
