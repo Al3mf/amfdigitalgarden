@@ -3,9 +3,12 @@
 ---
 
 
-APUNTES DE UASLP
-### ALEJANDRO
+Virtual Notebook from Alejandro
 
-# ALEJANDRO
+---
 
-[[UASLP/2026B/Bases de Datos/59 Bases de Datos\|59 Bases de Datos]]
+[LinkedIn](https://www.linkedin.com/in/alejandro-melo-flores/)
+[GitHub](https://github.com/Al3mf)
+
+
+![567799-1770626273.jpg](/img/user/567799-1770626273.jpg)
