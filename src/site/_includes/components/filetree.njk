@@ -10,6 +10,10 @@
                     <div class="foldername-wrapper align-icon">
                     <i x-show="isOpen" style="display: none;"  data-lucide="chevron-down"></i>
                     <i x-show="!isOpen"  data-lucide="chevron-right"></i>
+                    {% set folderIcon = folderIcons[currentPath] %}
+                    {% if folderIcon %}
+                    <i data-lucide="{{ folderIcon.icon }}" class="folder-custom-icon"{% if folderIcon.color %} style="color: {{ folderIcon.color }}; opacity: 1;"{% endif %}></i>
+                    {% endif %}
                     <span class="foldername">{{fileOrFolderName}}</span>
                     </div>
                     {% for fileOrFolderName, child in fileOrFolder %}
