@@ -4,15 +4,16 @@
 
 
 <div style="text-align: center;">
-# Virtual Notebook from Alejandro Melo
+
+<h1>Virtual Notebook from Alejandro Melo</h1>
 
 ---
 
 [LinkedIn](https://www.linkedin.com/in/alejandro-melo-flores/)
 [GitHub](https://github.com/Al3mf)
 
-![descarga.png](/img/user/descarga.png)
+![descarga (1).png\|640](/img/user/descarga%20(1).png)
 
-  
 </div>
+
 
