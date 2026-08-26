@@ -7,3 +7,6 @@ PRIMER EXAMEN - 11/Sep/2026
 SEGUNDO EXAMEN - 12/Oct/2026
 TERCER EXAMEN - 09/Nov/2026
 EXAMEN ORDINARIO - 08/Dic/2026
+
+> [!important]
+> Las fechas pueden cambiar
