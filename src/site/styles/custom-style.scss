@@ -104,10 +104,12 @@ a:hover,
 }
 
 .site-brand .site-logo {
-    height: 56px;
-    width: auto;
-    max-width: 100%;
-    object-fit: contain;
+    width: 100%;
+    height: auto;
+    max-height: 150px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
 }
 
 .site-brand h1 {
