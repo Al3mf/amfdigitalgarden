@@ -2,23 +2,31 @@
 {"dg-publish":true,"permalink":"/uaslp/2026-b/59-bases-de-datos/actividades/actividad-1/","dgHomeLink":true,"dgShowBacklinks":true,"dgShowLocalGraph":true,"dgShowGraphDepthControl":true,"dgShowInlineTitle":true,"dgShowFileTree":true,"dgEnableSearch":true,"dgShowToc":true,"dgLinkPreview":true,"dgShowTags":true,"dg-note-properties":{}}
 ---
 
-Universidad Autónoma de San Luis Potosí 
 
-Facultad de Ingeniería 
+<div style="text-align: center;">
 
-Área de Ciencias de la Computación 
+<h1>Actividad 1</h1>
 
-Alejandro Melo Flores
+<p>
+Universidad Autónoma de San Luis Potosí<br>
+Facultad de Ingeniería<br>
+Área de Ciencias de la Computación
+</p>
 
-Bases de Datos
+<p>
+<strong>Alejandro Melo Flores</strong><br>
+Bases de Datos<br>
+Alberto Ramos Blanco
+</p>
 
-Alberto Ramos Blanco 
+<p><strong>“Investigación sobre niveles de RAID”</strong></p>
 
-Nombre de la actividad: “Investigación sobre niveles de RAID” 
+<p>
+Fecha de entrega: 30 de agosto de 2026<br>
+Semestre: 2026-2027/I
+</p>
 
-Fecha de entrega: 30 de agosto de 2026 
-
-Semestre: 2026-2027/I 
+</div>
 
 --- 
 
@@ -40,6 +48,7 @@ RAID 0 (Striping)
    * **Uso recomendado:** Sistemas contables o datos críticos en pequeñas empresas.
    * **Esquema digital:** Copia espejo (Ej. el Dato 1 se copia idéntico en el Disco A y en el Disco B)
 
+
 ```mermaid
 graph TD
     Data[Archivo a guardar] -->|Se divide en partes| R0
@@ -60,8 +69,6 @@ RAID 5 (Striping con paridad distribuida)
 * **¿Tiene buena velocidad?** Lectura rápida, pero escritura moderada, ya que necesita realizar cálculos matemáticos para guardar la paridad
 * **Uso recomendado:** Servidores de archivos empresariales y almacenamiento general
 * **Esquema digital:** Datos repartidos entre los discos, con un bloque de paridad que va rotando de disco en cada fila de datos
-
-mano):
 
 ```mermaid
 graph TD
