@@ -26,6 +26,7 @@ Semestre: 2026-2027/I
 </p>
 
 </div>
+
 ---
 
 ## Comparativa de SGBD
